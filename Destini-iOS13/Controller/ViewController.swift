@@ -23,7 +23,6 @@ class ViewController: UIViewController {
         
         storyNumber = example.nextStory(userChoice: userAnswer!)
         choiceNumber = example.nextChoiceNumber(userChoice: userAnswer!)
- //       choice2Number = example.choice2Number(userChoice: userAnswer)
         
         Timer.scheduledTimer(timeInterval: 0.2, target: self, selector: #selector(updateUI), userInfo: nil, repeats: false)
 
